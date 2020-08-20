@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 123, 61);
+    
+}
+
+.container {
+    max-width: 1080px;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
+header {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    flex-basis: 50%;
+    font-size: 3rem;
+}
+
+.search-container {
+    flex-basis: 50%;
+    display: flex;
+    
+    
+    
+}
+
+.search-input {
+    flex-basis: 80%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    
+}
+
+.search-btn {
+    flex-basis: 20%;
+    padding: 0.6rem;
+    font-size: 1rem;
+}
+
+.main-container {
+    display: flex;
+    /* background-color: rgb(236, 159, 159); */
+    justify-content: space-between;
+}
+
+.videos-container {
+    flex-basis: 40%;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.video-card {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    margin-bottom: 1.3rem;
+    color: rgb(236, 174, 82);
+    cursor: pointer;
+}
+
+.video-card img {
+    height: 90px;
+}
+
+.video-title {
+    margin-left: 1rem;
+}
+
+.video-and-wiki {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 4rem;
+
+}
+
+.main-video {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    
+}
+
+
+.wiki-result {
+    border: 0.4px solid #000;
+    margin: 25px auto;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="initVideos()">
+    <div class="container">
+        <header>
+            <nav class="nav-header">
+                <section class="logo">WikiTube</section>
+                <section class="search-container">
+                    <input type="text" class="search-input">
+                    <button onclick="onSearch()" class="search-btn">Search</button>
+                </section>
+            </nav>
+        </header>
+        <main class="main-container">
+            <section class="videos-container">
+
+            </section>
+            <section class="video-and-wiki">
+                
+                <section class="main-video">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/aoki_izFGOg">
+                    </iframe>
+                </section>
+                <section class="wiki-container">
+                    
+                    
+                </section>
+            </section>
+        </main>
+    </div>
+    <script src="../lib/axios.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/wikitube-service.js"></script>
+    <script src="js/wikitube-controller.js"></script>
+</body>
+
+</html>
